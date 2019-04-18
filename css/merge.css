@@ -25,9 +25,6 @@
     box-shadow: 0 0 5px rgba(73, 177, 249, .5)
 }
 
-.td-chosen-css {
-}
-
 .td-chosen-muli-css {
     background-color: #eaf2f9 !important
 }
@@ -65,24 +62,4 @@
     font-size: 14px;
     padding-left: 7px;
     cursor: pointer
-}
-
-.rightmouse-panel-div .wb:hover {
-    background-color: #f0f8ff
-}
-
-.panel-div-left, .panel-div-right {
-    float: left
-}
-
-.panel-div-left {
-    border-right: 1px solid #bbd8e5
-}
-
-.chosen-area-p {
-    background-color: #03a9f4
-}
-
-.chosen-area-p-drug {
-    cursor: crosshair
 }
