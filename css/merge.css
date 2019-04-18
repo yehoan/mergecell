@@ -1,0 +1,88 @@
+.table table {
+    border-collapse: collapse;
+    empty-cells: show;
+    border-spacing: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    table-layout: fixed
+}
+
+.table table tr {
+    line-height: 35px
+}
+
+.table table td {
+    border: #afa7a7 1px solid;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+.table table td:focus {
+    outline: 0;
+    border: 1px solid #5897fb;
+    box-shadow: 0 0 5px rgba(73, 177, 249, .5)
+}
+
+.td-chosen-css {
+}
+
+.td-chosen-muli-css {
+    background-color: #eaf2f9 !important
+}
+
+.chosen-area-p, .rightmouse-panel-div{
+    position: absolute
+}
+
+.col-width-panel div {
+    width: 8px;
+    position: absolute;
+    cursor: e-resize
+}
+
+.row-height-panel div {
+    height: 8px;
+    position: absolute;
+    cursor: n-resize
+}
+
+.drug-ele-td {
+    background-color: #f0f0f0 !important;
+    cursor: pointer
+}
+
+.rightmouse-panel-div {
+    background-color: #fff;
+    border: 1px solid #bbd8e5;
+    border-radius: 4px
+}
+
+.rightmouse-panel-div .wb {
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-left: 7px;
+    cursor: pointer
+}
+
+.rightmouse-panel-div .wb:hover {
+    background-color: #f0f8ff
+}
+
+.panel-div-left, .panel-div-right {
+    float: left
+}
+
+.panel-div-left {
+    border-right: 1px solid #bbd8e5
+}
+
+.chosen-area-p {
+    background-color: #03a9f4
+}
+
+.chosen-area-p-drug {
+    cursor: crosshair
+}
